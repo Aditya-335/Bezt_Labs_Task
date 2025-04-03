@@ -58,3 +58,70 @@ Database: Supabase (PostgreSQL) 🗄️
 ✅ "Mark as Completed" feature ✅
 
 ✅ UI animations for task updates 🎨
+
+📂 Folder Structure
+
+📦 task-manager-app
+├── 📂 client  (React Frontend)
+│   ├── 📂 src
+│   │   ├── 📂 components
+│   │   ├── 📂 pages
+│   │   ├── 📜 App.tsx
+│   │   ├── 📜 index.tsx
+│   ├── 📜 package.json
+│   ├── 📜 tailwind.config.js
+│
+├── 📂 server  (Node.js Backend)
+│   ├── 📂 routes
+│   ├── 📂 controllers
+│   ├── 📂 models
+│   ├── 📜 server.js
+│   ├── 📜 package.json
+│
+├── 📜 README.md
+
+🚀 Installation & Setup
+
+🛠️ 1️⃣ Clone the Repository
+
+git clone https://github.com/YOUR_GITHUB_REPO.git
+cd task-manager-app
+
+🔧 2️⃣ Setup Backend
+
+cd server
+npm install
+npm start
+
+🎨 3️⃣ Setup Frontend
+
+cd client
+npm install
+npm run dev
+
+🔑 4️⃣ Environment Variables (.env)
+
+# Server (.env)
+PORT=5000
+JWT_SECRET=your_secret_key
+DATABASE_URL=your_supabase_postgresql_url
+
+# Client (.env)
+VITE_API_URL=http://localhost:5000
+
+🌍 Deployment
+
+Frontend: Deployed on [Vercel/Netlify] 🚀
+
+Backend: Hosted on [Render/Railway/EC2] 🖥️
+
+Database: Supabase (PostgreSQL) 🗄️
+
+📜 License
+
+This project is licensed under the MIT License.
+
+💡 Author
+
+Aditya 🚀
+
