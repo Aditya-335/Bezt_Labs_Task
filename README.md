@@ -1,7 +1,7 @@
 # 🌟 Task Manager Web App
 
 ## 🚀 Live Demo
-[🔗 Click here to view the deployed app](YOUR_DEPLOYED_LINK)
+[🔗 Click here to view the deployed app](https://bezt-labs-task.vercel.app/)
 
 ---
 
